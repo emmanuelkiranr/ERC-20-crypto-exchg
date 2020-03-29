@@ -11,9 +11,11 @@ Before installing any Linux distros for WSL, you must ensure that the "Windows S
 
 ### step 2
 => install Ubuntu from windows store ( approx ~260 mb ).
+
 The first time you launch a Linux distribution in Windows, you will be prompted to create a UNIX username and password.
 
 => Update the Linux distribution.
+
 After you have set up your user, update the OS.
 
 To do this run:
