@@ -10,18 +10,19 @@ Before installing any Linux distros for WSL, you must ensure that the "Windows S
 =>Restart your computer when prompted.
 
 ### step 2
-=> install Ubuntu from windows store ( approx ~260 mb )
-     The first time you launch a Linux distribution in Windows, you will be prompted to create a UNIX username and password.
+=> install Ubuntu from windows store ( approx ~260 mb ).
+The first time you launch a Linux distribution in Windows, you will be prompted to create a UNIX username and password.
 
-=> Update the Linux distribution
-     After you have set up your user, update the OS.
-     To do this run:
+=> Update the Linux distribution.
+After you have set up your user, update the OS.
+
+To do this run:
 
      sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y && sudo apt-get autoremove -y
 
 ### step 3
 => Graphical Applications
-    In order to run Linux GUI applications using WSL, you must:
+In order to run Linux GUI applications using WSL, you must:
 
     1. Install a X server for Windows
     2. Configure bash to tell GUIs to use the local X server
@@ -148,7 +149,7 @@ Now test again, it should be working..
 #### TO confirm installation
     Run: node -v 
 
-###step 8
+### step 8
 => Now lets install our next dependency ie the Truffle framework it allows us to create decentralized apps in the ethereum network,also gives us a framework for testing our smart contracts,it gives us a set of tools to deploy our smartcontracts to the blockchain. We can also develop our client side application using Truffle.
 
 #### To install
@@ -168,4 +169,4 @@ select your OS and download Ganache.
 => Next dependency is the metamask extension for chrome, in order to use the blockchain we must connect to it (remember blockchain is a network) we have to install a special browser extension in order to use Ethereum blockchain, that's where metamask comes in. We willl be able to connect to our local ethereum network with our personal account and interact with the smart contract using metamask
 
 #### To install
-Go to [here](https://metamask.io/) download and enable metamask extension onS chrome.
+Go to [here](https://metamask.io/) ,download and enable metamask extension on chrome.
