@@ -2,4 +2,6 @@
 
 install Ubuntu from windows store ( approx ~260 mb )
 
-  Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+ '''windows powershell
+ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+'''
