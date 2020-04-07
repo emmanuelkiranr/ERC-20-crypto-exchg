@@ -80,7 +80,15 @@ class App extends Component {  //class inheritance
      this.setState({ loading: false})
    })
   }
-
+  
+  sellTokens =(tokenAmount)=> {
+    this.setState({ loading:true})
+    this.state.token.methods.approve(this.state.ethSwap.address,tokenAmount).send({from: this.state.account}).on('transactionHash',(hash)=>{
+      this.state.ethSwap.methods.sellTokens(tokenAmount).send({from: this.state.account}).on('transactionHash',(hash)=>{
+      this.setState({loading: false})
+    })
+  })
+  }
    constructor(props) {  // store bc data in react state
     super(props);
     this.state = {
@@ -104,8 +112,10 @@ class App extends Component {  //class inheritance
       ethBalance={this.state.ethBalance} 
       tokenBalance={this.state.tokenBalance}
       buyTokens={this.buyTokens}
+      sellTokens={this.sellTokens}
        />
       }
+         
     
     return (
       <div>
