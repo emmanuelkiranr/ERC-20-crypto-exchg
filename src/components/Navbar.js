@@ -7,7 +7,7 @@ class Navbar extends Component {     // just to reduce the code  in app.js into 
       <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
           <a
             className="navbar-brand col-sm-3 col-md-2 mr-0"
-            href="http://www.dappuniversity.com/bootcamp"
+            href="https://github.com/Emmanuel1237"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -25,7 +25,7 @@ class Navbar extends Component {     // just to reduce the code  in app.js into 
              className="ml-2"
              width="30"
              height="30"
-             src={'data:image/png;base64,${new Identicon(this.props.account ,30).toString()}'}
+             src={'data:image/png;base64,$ new{Identicon(this.props.account, 30).toString()}'}
              alt=""
              />
              : <span></span>
