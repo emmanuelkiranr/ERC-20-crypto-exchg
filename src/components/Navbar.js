@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Identicon from 'identicon.js';
 class Navbar extends Component {     // just to reduce the code  in app.js into one component <Navbar />
 
   render() {           // the imported fns etc only take action once implemented in render fn.
@@ -19,18 +18,6 @@ class Navbar extends Component {     // just to reduce the code  in app.js into 
             <small className="text-secondary">
               <small id="account">{this.props.account}</small>
            </small>
-          
-            { this.props.account
-             ? <img
-             className="ml-2"
-             width="30"
-             height="30"
-             src={'data:image/png;base64,$ new{Identicon(this.props.account, 30).toString()}'}
-             alt=""
-             />
-             : <span></span>
-
-           }
            </li>
            </ul>
         </nav> 
