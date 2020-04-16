@@ -1,8 +1,8 @@
 {
-  "name": "eth-swap",
+  "name": "ether-token-market",
   "version": "0.1.0",
   "description": "An Instant ERC-20 Cryptocurrency Exchange",
-  "author": "gregory@dappuniversity.com",
+  "author": "emmanuelkiranr@gmail.com",
   "dependencies": {
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.7.0",
@@ -38,4 +38,3 @@
     "not op_mini all"
   ]
 }
-
