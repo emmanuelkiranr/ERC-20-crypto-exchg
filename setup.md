@@ -1,6 +1,6 @@
-## If you are using a Linux/mac OS then Start from Step 1 onwards.
+#### If you are using a Linux/mac OS then Start from Step 1 onwards.
 
-## If you are using windows then I recommend setting up Windows Subsystem for Linux (WSL) . follow Steps A to C and then continue from Step 1 onwards.
+#### If you are using windows then I recommend setting up Windows Subsystem for Linux (WSL) . follow Steps A to C and then continue from Step 1 onwards.
 
 ## WSL SETUP FOR DAPP DEVELOPMENT ( UBUNTU WSL )
 ### step A
@@ -56,7 +56,7 @@ Install x11-apps
 
 A new window will open, containing a pair of eyes that will follow your mouse movements.
 
-#### Congrats! you have successfully setup your WSL.
+#### Congrats! you have successfully setup your WSL.Now continue from step 1.
 
 ## Mac/Linux users begin from here onwards.
 ### step 1 

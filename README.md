@@ -2,7 +2,7 @@
 This is a Repository for learning about Blockchain Applications and cryptocurrencies. And also creating an blockchain application. 
 The cryptocurrency I have used is Ether.
 
-##### visit the setup.md file of this repo to setup the environment for DApp Development. Or [click here](https://github.com/Emmanuel1237/Testchain/blob/master/setup.md)
+##### I highly Recommend you to visit the [setup.md](https://github.com/Emmanuel1237/Testchain/blob/master/setup.md) file of this repo to setup the environment for DApp Development.
 
 
 ## Dependencies 
