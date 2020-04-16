@@ -23,18 +23,18 @@ The cryptocurrency I have used is Ether.
 
 #### Step 2. Install dependencies
 
-    $ cd election
+    $ cd Testchain
     $ npm install
 
 #### Step 3. Start Ganache
 
- Open the Ganache GUI client that you downloaded and installed. This will start  your local blockchain instance. See free video tutorial for full explanation.
+ Open the Ganache GUI client that you downloaded and installed. This will start  your local blockchain instance.
 
 #### Step 4. Compile & Deploy Election Smart Contract
 
     $ truffle migrate --reset 
  
- You must migrate the election smart contract each time your restart ganache.
+ You must migrate the Testchain smart contract each time you restart ganache.
 
 #### Step 5. Configure Metamask
 

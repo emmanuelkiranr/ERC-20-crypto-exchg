@@ -1,6 +1,9 @@
-## WSL SETUP FOR DAPP DEVELOPMENT ( UBUNTU WSL )
+## If you are using a Linux/mac OS then Start from Step 1 onwards.
 
-### step 1
+## If you are using windows then I recommend setting up Windows Subsystem for Linux (WSL) . follow Steps A to C and then continue from Step 1 onwards.
+
+## WSL SETUP FOR DAPP DEVELOPMENT ( UBUNTU WSL )
+### step A
 Before installing any Linux distros for WSL, you must ensure that the "Windows Subsystem for Linux" optional feature is enabled:
 
 => Open PowerShell as Administrator and run:
@@ -9,7 +12,7 @@ Before installing any Linux distros for WSL, you must ensure that the "Windows S
 
 =>Restart your computer when prompted.
 
-### step 2
+### step B
 => install Ubuntu from windows store ( approx ~260 mb ).
 
 The first time you launch a Linux distribution in Windows, you will be prompted to create a UNIX username and password.
@@ -22,7 +25,7 @@ To do this run:
 
      sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y && sudo apt-get autoremove -y
 
-### step 3
+### step C
 => Graphical Applications
 In order to run Linux GUI applications using WSL, you must:
 
@@ -55,7 +58,8 @@ A new window will open, containing a pair of eyes that will follow your mouse mo
 
 #### Congrats! you have successfully setup your WSL.
 
-### step 4 
+## Mac/Linux users begin from here onwards.
+### step 1 
 => Now let us install an text editor 
 
 #### Installing Sublime Text on Ubuntu in WSL
@@ -84,7 +88,7 @@ That’s it. Sublime Text has been installed on your Ubuntu WSL.
 Starting Sublime Text
   You can start the Sublime Text editor from the terminal by typing subl.
 
-### step 5
+### step 2
 
 => we need to install the Ethereum package for our sublime text editor
 #### Package Control in Sublime Text, Setting up for Solidity Development(For syntax highlighting)
@@ -100,7 +104,7 @@ Starting Sublime Text
 
 That’s it  now, when you create a .sol file in Sublime Text, you should see styling, syntax highlighting and most importantly, intellisense.
 
-### step 6
+### step 3
 
 => Now let us install some dependencies required.
 #### Install and Configure brew (just to install npm using homebrew)
@@ -143,7 +147,7 @@ The recommended solution of brew install gcc may result in the same error. A fix
 
 Now test again, it should be working..
 
-### step 7
+### step 4
 => Ok, now lets install our first dependency ie. NPM ( Node Package Manager ) it comes bundeled with node js.
 
 #### To install 
@@ -203,15 +207,26 @@ To switch versions of Node.js (if you have already installed it on the NVM) ente
 
     nvm use 8.11.1
 
-### step 8
+### step 5
 => Now lets install our next dependency ie the Truffle framework it allows us to create decentralized apps in the ethereum network,also gives us a framework for testing our smart contracts,it gives us a set of tools to deploy our smartcontracts to the blockchain. We can also develop our client side application using Truffle.
+
+Truffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier. With Truffle, you get:
+
+  - Built-in smart contract compilation, linking, deployment and binary management.
+  - Automated contract testing with Mocha and Chai.
+  - Configurable build pipeline with support for custom build processes.
+  - Scriptable deployment & migrations framework.
+  - Network management for deploying to many public & private networks.
+  - Interactive console for direct contract communication.
+  - Instant rebuilding of assets during development.
+  - External script runner that executes scripts within a Truffle environment.
 
 #### To install
     Run: npm install -g truffle
 #### To confirm installation
     Run: truffle -v
 
-### step 9
+### step 6
 =>now lets install our next dependency ie. ganache, it is a local inmemory blockchain that we will use for development purposes.
 
 #### To install
@@ -219,7 +234,7 @@ To switch versions of Node.js (if you have already installed it on the NVM) ente
 Visit truffle web site [here](https://www.trufflesuite.com/ganache)
 select your OS and download Ganache.
 
-### step 10 
+### step 7 
 => Next dependency is the metamask extension for chrome, in order to use the blockchain we must connect to it (remember blockchain is a network) we have to install a special browser extension in order to use Ethereum blockchain, that's where metamask comes in. We willl be able to connect to our local ethereum network with our personal account and interact with the smart contract using metamask
 
 #### To install
