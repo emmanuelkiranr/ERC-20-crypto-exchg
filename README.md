@@ -5,13 +5,17 @@ The cryptocurrency I have used is Ether.
 ##### visit the setup.md file of this repo to setup the environment for DApp Development. Or [click here](https://github.com/Emmanuel1237/Testchain/blob/master/setup.md)
 
 
-## Dependencies
+## Dependencies 
+  => If you have done setting up the development environment as given in 
+  [setup.md](https://github.com/Emmanuel1237/Testchain/blob/master/setup.md) then you can skip the below mentioned prerequisites and continue to Step 1.
+
  Install these prerequisites.
 
  - NPM: https://nodejs.org
  - Truffle: https://github.com/trufflesuite/truffle
  - Ganache: http://truffleframework.com/ganache/
  - Metamask: https://metamask.io/
+  
 
 #### Step 1. Clone the project
    
