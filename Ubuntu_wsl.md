@@ -151,6 +151,58 @@ Now test again, it should be working..
 #### TO confirm installation
     Run: node -v 
 
+=> Another way to install Node.js and NPM is with the Node Version Manager (NVM). NVM is a tool practical for managing multiple Node.js versions.
+
+  1. To install NVM, download the installation script from GitHub. For that, you will use the curl command line.
+  If you do not have curl, install it by running:
+
+    sudo apt install curl
+  Press y to confirm the installation and hit Enter.
+
+  2. Now, download the NVM installation script with the command:
+
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+  It automatically clones the NVM repository and adds the NVM path to ZSH or Bash.
+
+  3. To enable nvm:
+
+    Close and open the terminal or
+    Run the given command
+
+  4. Finally, check whether the installation was successful by verifying nvm version:
+
+    nvm --version
+
+  Once you have installed nvm, you can find a list of all the available Node.js versions with the command:
+
+    nvm ls-remote
+
+This will list all available versions of nvm, including the latest LTS version.
+
+Note: LTS stands for long-term support and is used for software that is maintained for an  extended period and is recommended as being the most stable.
+
+#### Install a Specific Version
+Nvm is a package manager; it can install and manage multiple Node.js versions.
+
+To install a particular version, use the command: nvm install and add the number of the version.
+
+For example for: nvm install 10.15.2
+
+To view all installed versions on your manager, use the command:
+
+    nvm ls
+
+This will list all installed Node.js versions as well as the default and stable versions.
+
+=> list installed nodejs versions
+To check which version you are currently using, run the command:
+
+    node -v 
+
+To switch versions of Node.js (if you have already installed it on the NVM) enter the command:
+
+    nvm use 8.11.1
+
 ### step 8
 => Now lets install our next dependency ie the Truffle framework it allows us to create decentralized apps in the ethereum network,also gives us a framework for testing our smart contracts,it gives us a set of tools to deploy our smartcontracts to the blockchain. We can also develop our client side application using Truffle.
 
