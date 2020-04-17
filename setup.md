@@ -154,7 +154,7 @@ Now test again, it should be working..
     Run: brew install node
 #### TO confirm installation
     Run: node -v 
-
+=> since here we need node version 9.10.0 so follow bellow steps for installing it.
 => Another way to install Node.js and NPM is with the Node Version Manager (NVM). NVM is a tool practical for managing multiple Node.js versions.
 
   1. To install NVM, download the installation script from GitHub. For that, you will use the curl command line.
@@ -190,7 +190,7 @@ Nvm is a package manager; it can install and manage multiple Node.js versions.
 
 To install a particular version, use the command: nvm install and add the number of the version.
 
-For example for: nvm install 10.15.2
+For example for: nvm install 9.10.0
 
 To view all installed versions on your manager, use the command:
 
@@ -205,7 +205,7 @@ To check which version you are currently using, run the command:
 
 To switch versions of Node.js (if you have already installed it on the NVM) enter the command:
 
-    nvm use 8.11.1
+    nvm use 9.10.0
 
 ### step 5
 => Now lets install our next dependency ie the Truffle framework it allows us to create decentralized apps in the ethereum network,also gives us a framework for testing our smart contracts,it gives us a set of tools to deploy our smartcontracts to the blockchain. We can also develop our client side application using Truffle.
@@ -221,6 +221,10 @@ Truffle is a development environment, testing framework and asset pipeline for E
   - Instant rebuilding of assets during development.
   - External script runner that executes scripts within a Truffle environment.
 
+#### For this project use truffle version 5.1.14
+     Run: npm install --g truffle@5.1.14
+
+=>For normal truffle installations(not needed here)
 #### To install
     Run: npm install -g truffle
 #### To confirm installation

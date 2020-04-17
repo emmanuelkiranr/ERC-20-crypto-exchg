@@ -1,6 +1,9 @@
 # ERC-20-crypto-exchg
 This is a Repository for learning about Blockchain Applications and cryptocurrencies. And also creating an blockchain application. 
 The cryptocurrency I have used is Ether.
+This is a web site for buying and selling tokens  ERC-20 tokens for a fixed price
+=> This is just for understanding how ERC-20 tokens, smart contracts works.
+   =>This is NOT A REAL TOKEN TRADING WEBSITE<=
 
 ##### I highly Recommend you to visit the [setup.md](https://github.com/Emmanuel1237/Testchain/blob/master/setup.md) file of this repo to setup the environment for DApp Development.
 
@@ -11,8 +14,8 @@ The cryptocurrency I have used is Ether.
 
  Install these prerequisites.
 
- - NPM: https://nodejs.org
- - Truffle: https://github.com/trufflesuite/truffle
+ - NPM: https://nodejs.org(version 9.10.0)
+ - Truffle: https://github.com/trufflesuite/truffle(version 5.1.14)
  - Ganache: http://truffleframework.com/ganache/
  - Metamask: https://metamask.io/
   
@@ -38,10 +41,21 @@ The cryptocurrency I have used is Ether.
 
 #### Step 5. Configure Metamask
 
- - Unlock Metamask
- - Connect metamask to your local Etherum blockchain provided by Ganache.
- - Import an account provided by ganache.
+ - Click on the metamask icon on top right corner of the chrome browser
+ - Create an account on metamask.
+ - In metamask ,from networks section select custom RPC.
+ - In the new RPC URL section paste the RPC server URL displayed on the top
+   tab of Ganache. And click save after giving a name for the network. 
+   Now we connected metamask to your local Etherum blockchain provided by Ganache.
+ - Now Import an account provided by ganache. Goto Ganache and click on the
+   KEY icon corresponding to any account. It will diplay the private key of that account, copy in and open metamask, and click on the account icon ,select import account option and set the type to private key and paste the private key coppied below and click import.
+ - Now in metamask ,from networks section select the name of the network that
+   you have created now.
 
 #### Step 6. Run the Front End Application
     $ npm run start
  This will automatically star the web server and open up the client side website 
+
+#### step 7.
+  
+   Now start buying and selling tokens from your localhost network.
