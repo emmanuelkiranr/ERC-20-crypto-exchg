@@ -15,8 +15,8 @@ class Navbar extends Component {     // just to reduce the code  in app.js into 
           {/*<p>{this.props.account}</p> for a cleaner look of account text*/}
           <ul className="navbar-nav px-3">
            <li className="nav-item text-nowrap dnone d-sm-none d-sm-block">
-            <small className="text-secondary">
-              <small id="account">{this.props.account}</small>
+            <small className="text-secondary">        
+            <small id="account">{this.props.account}</small>
            </small>
            </li>
            </ul>

@@ -24,9 +24,9 @@ class BuyForm extends Component {
        {/*console.log("purchasing Tokens...")*/}
       }}>
        <div>
-         <label className="float-left"><b>Input</b></label>
+         <label className="float-left"><b>Amount</b></label>
          <span className="float-right text-muted">
-          Balance: {window.web3.utils.fromWei(this.props.ethBalance, 'Ether')}
+         Ether Balance: {window.web3.utils.fromWei(this.props.ethBalance, 'Ether')}
          </span>
         </div>
         <div className="input-group mb-4">
@@ -52,9 +52,9 @@ class BuyForm extends Component {
           </div>
         </div>
         <div>
-          <label className="float-left"><b>Output</b></label>
+          <label className="float-left"><b>Value</b></label>
           <span className="float-right text-muted">
-            Balance: {window.web3.utils.fromWei(this.props.tokenBalance, 'Ether')}
+            Token Balance: {window.web3.utils.fromWei(this.props.tokenBalance, 'Ether')}
             </span>
           </div>
           <div className="input-group mb-2">
@@ -68,15 +68,15 @@ class BuyForm extends Component {
              <div className="input-group-append">
               <div className="input-group-text">
               <img src={tokenlogo} height='32' alt=""/>
-              &nbsp; DApp
+              &nbsp; TKN 
             </div>
           </div>
         </div>
         <div className="mb-5">
             <span className="float-left text-muted">Exchange Rate</span>
-            <span className="float-right text-muted">1 ETH = 100 DApp</span>
+            <span className="float-right text-muted">1 ETH = 100 ERC20 Tokens</span>
           </div>
-          <button type="submit" className="btn btn-primary btn-block btn-lg">SWAP!</button>
+          <button type="submit" className="btn btn-primary btn-block btn-lg">Purchase</button>
         </form>
       );
   }
