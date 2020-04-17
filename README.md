@@ -1,4 +1,4 @@
-# Testchain
+# ERC-20-crypto-exchg
 This is a Repository for learning about Blockchain Applications and cryptocurrencies. And also creating an blockchain application. 
 The cryptocurrency I have used is Ether.
 
@@ -19,11 +19,11 @@ The cryptocurrency I have used is Ether.
 
 #### Step 1. Clone the project
    
-    git clone https://github.com/Emmanuel1237/Testchain.git
+    git clone https://github.com/Emmanuel1237/ERC-20-crypto-exchg.git
 
 #### Step 2. Install dependencies
 
-    $ cd Testchain
+    $ cd ERC-20-crypto-exchg
     $ npm install
 
 #### Step 3. Start Ganache
