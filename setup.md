@@ -154,7 +154,9 @@ Now test again, it should be working..
     Run: brew install node
 #### TO confirm installation
     Run: node -v 
-=> since here we need node version 9.10.0 so follow bellow steps for installing it.
+
+=> since for this project we need node version 9.10.0 so follow bellow steps for installing it.
+
 => Another way to install Node.js and NPM is with the Node Version Manager (NVM). NVM is a tool practical for managing multiple Node.js versions.
 
   1. To install NVM, download the installation script from GitHub. For that, you will use the curl command line.
@@ -224,7 +226,7 @@ Truffle is a development environment, testing framework and asset pipeline for E
 #### For this project use truffle version 5.1.14
      Run: npm install --g truffle@5.1.14
 
-=>For normal truffle installations(not needed here)
+=>For normal truffle installations(not needed for this project)
 #### To install
     Run: npm install -g truffle
 #### To confirm installation

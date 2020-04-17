@@ -1,8 +1,11 @@
 # ERC-20-crypto-exchg
 This is a Repository for learning about Blockchain Applications and cryptocurrencies. And also creating an blockchain application. 
 The cryptocurrency I have used is Ether.
+
 This is a web site for buying and selling tokens  ERC-20 tokens for a fixed price
+
 => This is just for understanding how ERC-20 tokens, smart contracts works.
+
    =>This is NOT A REAL TOKEN TRADING WEBSITE<=
 
 ##### I highly Recommend you to visit the [setup.md](https://github.com/Emmanuel1237/Testchain/blob/master/setup.md) file of this repo to setup the environment for DApp Development.
