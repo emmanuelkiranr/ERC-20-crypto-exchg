@@ -10,7 +10,7 @@ class Navbar extends Component {     // just to reduce the code  in app.js into 
             target="_blank"
             rel="noopener noreferrer"
           >
-            ETHSWAP
+            Ether-Token Market
           </a>
           {/*<p>{this.props.account}</p> for a cleaner look of account text*/}
           <ul className="navbar-nav px-3">
