@@ -17,8 +17,8 @@ This is a web site for buying and selling tokens  ERC-20 tokens for a fixed pric
 
  Install these prerequisites.
 
- - NPM: https://nodejs.org (version: 9.10.0)
- - Truffle: https://github.com/trufflesuite/truffle (version: 5.1.14)
+ - NPM: https://nodejs.org (install version: 9.10.0)
+ - Truffle: https://github.com/trufflesuite/truffle (install version: 5.1.14)
  - Ganache: http://truffleframework.com/ganache/
  - Metamask: https://metamask.io/
   
